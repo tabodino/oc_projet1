@@ -1,0 +1,287 @@
+/*
+Theme Name: Accesspress Lite-Child
+Theme URI: http://access-keys.com/accesspresslite/
+Description: Accesspress Lite is a HTML5 & CSS3 Responsive WordPress Business theme with clean, minimal yet highly professional design. It is easily customizable as per requirement with all the options avaliable at the dashboard theme option.
+Author: Access Keys Team
+Author URI: http://access-keys.com/
+Template: accesspress-lite
+Version: 1.7.1
+Tags: blue, white, light, custom-menu, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, full-width-template, custom-header, flexible-header, responsive-layout
+Text Domain: AccesspressLite-child
+
+*/
+
+@import url("../accesspress-lite/style.css");
+
+/*--------------------------------------------------------------
+Formulaire de contact
+--------------------------------------------------------------*/
+
+.left-contact {
+    border-right: 1px solid #e4e4e4;
+    float: left;
+    margin-bottom: 30px;
+    width: 780px;
+}
+.left-contact .wpcf7-form {
+    width: 710px;
+}
+.right-side {
+    float: right;
+    padding-left: 60px;
+    width: 388px;
+}
+.right-side a {
+    color: #333;
+}
+.right-side a:hover {
+    color: #00c1cf;
+}
+.left-contact h3, .right-side h3 {
+    font-family: "Oswald",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+.right-side ul {
+    margin-left: 0;
+}
+.business-hours li {
+    list-style: outside none none;
+}
+.left-contact label {
+    color: #555;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.left-contact label .imp {
+    color: #777;
+}
+.wpcf7-form input[type="text"], .wpcf7-form input[type="email"] {
+    color: #555;
+    padding: 3px 10px;
+    width: 100%;
+}
+.wpcf7-form textarea {
+    border-radius: 1px;
+    color: #555;
+    height: 200px;
+    padding: 3px 10px;
+    width: 100%;
+}
+.left-contact .email {
+    float: right;
+    padding-left: 10px;
+    width: 50%;
+}
+.left-contact .namee {
+    float: left;
+    padding-right: 10px;
+    width: 50%;
+}
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+#masthead {
+  top: 0;
+  position: fixed;
+}
+
+#slider-banner {
+  margin-top: 5%;
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+@media screen and (max-width: 1200px){
+ .left-contact {
+	width: 75%;
+	float:left;
+ 	border-right: none; 
+   }
+  #slider-banner {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 940px) and (max-width: 1200px){
+  #slider-banner {
+    margin-top: 7%;
+  }
+    .left-contact {
+	width: 50%;
+	float:left;
+ 	border-right: none;
+	
+    }
+    .wpcf7-form input[type="text"], 
+    .wpcf7-form input[type="email"], 
+    .wpcf7-form input[type="url"], 
+    .wpcf7-form input[type="password"],
+    .wpcf7-form select{
+        width:75%;
+    }
+
+    
+    .wpcf7-form textarea{
+        width:75%;
+    }
+    .wpcf7-form #nationalite{ 
+	margin-right: 20%;
+    }	
+   .featured-content p {
+	height: 210px;
+	overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 940px){
+  #slider-banner {
+    margin-top: 14%;
+  }
+  #masthead {
+   max-width: 768px;
+   width:100%;
+  }
+    .left-contact {
+    border-right: none;
+    float: left;
+    margin-bottom: 30px;
+    width: 75%;
+    text-align:center;
+  }
+#bottom-footer .site-info a#private{
+	//color: #fff;
+}
+#bottom-footer .site-info a#private:hover{
+	//color: #f9f9f9;
+}
+	.featured-content p {
+	padding: 0 5% 0 5%;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+   #slider-banner {
+    margin-top: 10%;
+  }
+	.featured-content p {
+	padding: 0 5% 0 5%
+  }
+}
+@media screen and (max-width: 660px) {
+
+  #slider-banner {
+    margin-top: 10%;
+  }
+	.left-contact {
+    border-right: none;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+	text-align: center;
+  }
+
+	 .left-contact .wpcf7-form, .left-contact .wpcf7-form textarea{
+        width:90%;
+	
+    }
+#bottom-footer .site-info a#private{
+	//color: #fff;
+}
+
+	.featured-post-info{
+		
+		margin: 5%;
+	}
+
+     .featured-content p {
+	padding: 0 5% 0 5%;
+  }
+	
+
+}
+@media screen and (max-width: 580px) {
+
+  #slider-banner {
+    margin-top: 20%;
+  }
+	.left-contact {
+    border-right: none;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+
+  }
+	.left-contact form textarea{
+	margin-top:5%;
+}
+ .featured-content p {
+	padding: 0 5% 0 5%;
+  }
+ 
+}
+
+@media screen and (max-width: 480px) {
+  
+ #slider-banner {
+    margin-top: 30%;
+  }
+   .left-contact {
+    border-right: none;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align:center;
+	
+  }
+  .featured-content p {
+	padding: 0 5% 0 5%;
+  }
+  #bottom-footer .site-info a#private{
+	//color: #fff;
+  }
+	
+  #masthead .site-branding img{
+	margin: 0 auto;
+  }
+
+  #masthead .right-header{
+		display: block;
+	}
+  #masthead .right-header > *{
+		display: block;
+	}
+}
+@media screen and (max-width: 465px){
+  
+  #slider-banner {
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 380px){
+	#slider-banner {
+    margin-top: 25%;
+  }
+  
+}
+@media screen and (max-width: 300px){
+	#slider-banner {
+    margin-top: 55%;
+  }
+}
+
+  table tbody tr:hover{
+
+     background-color: #ddd;
+  }
+  #bottom-footer .site-info a#private{
+	//color: #B52626;
+  }
+  #bottom-footer .site-info a#private:hover{
+	//color: #f9f9f9;
+  }
